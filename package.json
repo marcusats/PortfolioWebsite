@@ -1,5 +1,6 @@
 {
-  "name": "tokyo",
+  "name": "Marco's-Website",
+  "homepage": ".",
   "version": "1.1.9",
   "private": true,
   "dependencies": {
