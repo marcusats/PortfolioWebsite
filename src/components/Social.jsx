@@ -6,6 +6,19 @@ const SocialShare = [
     iconName: "instagram",
     link: "https://www.instagram.com/",
   },
+  {
+    iconName: "linkedin",
+    link: "https://www.instagram.com/",
+  },
+  {
+    iconName: "medium",
+    link: "https://www.instagram.com/",
+  },
+  {
+    iconName: "github",
+    link: "https://www.instagram.com/",
+  },
+
 ];
 const Social = () => {
   return (
