@@ -29,8 +29,7 @@ const Portfolio = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Portfolio</span>
-                <h3>Minimal Portfolio</h3>
+                <h3>Post</h3>
               </div>
             </div>
           </div>
@@ -41,13 +40,8 @@ const Portfolio = () => {
               <TabList>
                 <Tab>All</Tab>
                 {/* All */}
-                <Tab>Vimeo</Tab>
-                {/* For Vimeo */}
-                <Tab>Youtube</Tab>
-                {/* For Youtube */}
-                <Tab>Photography</Tab>
+                <Tab>Medium</Tab>
                 {/* For Images */}
-                <Tab>Details</Tab>
                 {/* For Popup Details */}
               </TabList>
               {/* END TABLIST */}

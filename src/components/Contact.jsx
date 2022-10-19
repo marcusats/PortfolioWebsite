@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
+import{ init } from '@emailjs/browser';
+
+init("SZ38zUQxHd344UCrO");
 
 const Contact = () => {
   const [viewport, setViewport] = useState({
@@ -15,10 +18,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_sxmmb3a",
+        "template_toha7tc",
         e.target,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "SZ38zUQxHd344UCrO"
       )
       .then((res) => {
         console.log(res);

@@ -7,6 +7,7 @@ import RtlHomeDark from "../views/all-home-version/RtlHomeDark";
 import NotFound from "../views/NotFound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 const Routes = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Routes = () => {
           <Route path="/rtl-home-dark" component={RtlHomeDark} />
           <Route component={NotFound} />
         </Switch>
+
       </Router>
     </>
   );

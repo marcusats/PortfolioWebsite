@@ -7,6 +7,7 @@ import Portfolio from "../../components/Portfolio";
 import News from "../../components/News";
 import Contact from "../../components/Contact";
 
+
 const HomeDark = () => {
   document.body.classList.add("dark");
   return (
@@ -107,13 +108,18 @@ const HomeDark = () => {
                   </div>
                 </TabPanel>
                 {/* END CONTACT MENU TAB CONTENT */}
+                
               </div>
             </div>
           </div>
+          
         </div>
         {/* END RIGHT PART CONTENT */}
+        
       </Tabs>
+
       {/* END TABS */}
+      
     </>
   );
 };
