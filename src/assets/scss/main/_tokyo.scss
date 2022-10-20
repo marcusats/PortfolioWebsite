@@ -8,7 +8,7 @@
 03) TOKYO RIGHTPART
 04) TOKYO HOME
 05) TOKYO ABOUT
-06) TOKYO PORTFOLIO
+06) TOKYO Posts
 07) TOKYO NEWS
 08) TOKYO CONTACT
 09) TOKYO MAGIC CURSOR
@@ -454,6 +454,7 @@ h6 {
   box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, 0.3);
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   overflow: hidden;
+  height: 110%;
 }
 
 @keyframes morph {
@@ -815,7 +816,7 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	06) TOKYO PORTFOLIO
+/*	06) TOKYO Posts
 /*---------------------------------------------------*/
 
 .tokyo_tm_title {
@@ -849,11 +850,11 @@ h6 {
   justify-content: space-between;
   align-items: flex-end;
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list {
+.tokyo_tm_Posts .Posts_filter .react-tabs__tab-list {
   margin: 0px;
   list-style-type: none;
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li {
+.tokyo_tm_Posts .Posts_filter .react-tabs__tab-list li {
   margin: 0px 25px 0px 0px;
   text-decoration: none;
   color: #767676;
@@ -866,25 +867,25 @@ h6 {
     margin: 0px 15px 0px 0px;
   }
 }
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:last-child {
+.tokyo_tm_Posts .Posts_filter .react-tabs__tab-list li:last-child {
   margin-right: 0px;
 }
 
-.tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:hover,
-.tokyo_tm_portfolio
-  .portfolio_filter
+.tokyo_tm_Posts .Posts_filter .react-tabs__tab-list li:hover,
+.tokyo_tm_Posts
+  .Posts_filter
   .react-tabs__tab-list
   li.react-tabs__tab--selected {
   color: #000;
   letter-spacing: 2px;
 }
-.tokyo_tm_portfolio .list_wrapper {
+.tokyo_tm_Posts .list_wrapper {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.tokyo_tm_portfolio {
+.tokyo_tm_Posts {
   width: 100%;
   height: auto;
   clear: both;
@@ -892,11 +893,11 @@ h6 {
   padding: 100px 0px 50px 0px;
   position: relative;
 }
-.tokyo_tm_portfolio .portfolio_list {
+.tokyo_tm_Posts .Posts_list {
   margin: 0px 0px 0px -50px;
   list-style-type: none;
 }
-.tokyo_tm_portfolio .portfolio_list li {
+.tokyo_tm_Posts .Posts_list li {
   margin: 0px 0px 50px 0px;
   float: left;
   width: 50%;
@@ -905,7 +906,7 @@ h6 {
     margin: 0px 0px 30px 0px;
   }
 }
-.tokyo_tm_portfolio .portfolio_list li .inner {
+.tokyo_tm_Posts .Posts_list li .inner {
   width: 100%;
   height: 100%;
   clear: both;
@@ -913,8 +914,8 @@ h6 {
   overflow: hidden;
   position: relative;
 }
-.tokyo_tm_portfolio .portfolio_list li .inner a,
-.tokyo_tm_portfolio .portfolio_list li .inner .entry {
+.tokyo_tm_Posts .Posts_list li .inner a,
+.tokyo_tm_Posts .Posts_list li .inner .entry {
   position: relative;
   overflow: hidden;
   &:hover {
@@ -923,7 +924,7 @@ h6 {
     }
   }
 }
-.tokyo_tm_portfolio .portfolio_list li .inner img {
+.tokyo_tm_Posts .Posts_list li .inner img {
   width: 100%;
   height: 415px;
   object-fit: cover;
@@ -943,11 +944,11 @@ ul.react-tabs__tab-list {
     padding-bottom: 25px;
   }
 }
-// .tokyo_tm_portfolio .portfolio_list li .inner img{
+// .tokyo_tm_Posts .Posts_list li .inner img{
 // 	opacity: 0;
 // 	min-width: 100%;
 // }
-.tokyo_tm_portfolio .portfolio_list li .inner .main_image {
+.tokyo_tm_Posts .Posts_list li .inner .main_image {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -963,10 +964,10 @@ ul.react-tabs__tab-list {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tokyo_tm_portfolio .portfolio_list li .inner:hover .main_image {
+.tokyo_tm_Posts .Posts_list li .inner:hover .main_image {
   transform: scale(1.1) translateZ(0);
 }
-.tokyo_tm_portfolio_titles {
+.tokyo_tm_Posts_titles {
   white-space: nowrap;
   background: #ffffff;
   font-size: 18px;
@@ -979,11 +980,11 @@ ul.react-tabs__tab-list {
   opacity: 0;
   visibility: hidden;
 }
-.tokyo_tm_portfolio_titles.visible {
+.tokyo_tm_Posts_titles.visible {
   opacity: 1;
   visibility: visible;
 }
-.tokyo_tm_portfolio_titles .work__cat {
+.tokyo_tm_Posts_titles .work__cat {
   position: absolute;
   background: #ffffff;
   top: 100%;
@@ -1644,7 +1645,7 @@ body.modal {
 
   .tokyo_tm_about,
   .tokyo_tm_home,
-  .tokyo_tm_portfolio,
+  .tokyo_tm_Posts,
   .tokyo_tm_contact,
   .tokyo_tm_news {
     padding-top: 170px;
@@ -1714,7 +1715,7 @@ body.modal {
     flex-direction: column;
     align-items: flex-start;
   }
-  .tokyo_tm_title .portfolio_filter {
+  .tokyo_tm_title .Posts_filter {
     padding-top: 48px;
   }
   .tokyo_tm_modalbox_news .description_wrap {
@@ -1747,10 +1748,10 @@ body.modal {
     min-width: 200px;
     min-height: 200px;
   }
-  .tokyo_tm_portfolio .portfolio_list {
+  .tokyo_tm_Posts .Posts_list {
     margin: 0px;
   }
-  .tokyo_tm_portfolio .portfolio_list li {
+  .tokyo_tm_Posts .Posts_list li {
     width: 100%;
     padding-left: 0px;
   }
@@ -1859,7 +1860,7 @@ body.modal {
   .tokyo_tm_news {
     padding-bottom: 60px;
   }
-  .tokyo_tm_portfolio {
+  .tokyo_tm_Posts {
     padding-bottom: 70px;
   }
   .tokyo_tm_about {
@@ -1945,21 +1946,21 @@ body.modal {
   }
 }
 
-// portfolio new details popup css
-.portfolio_tm_modalbox .portfolio_main_title {
+// Posts new details popup css
+.Posts_tm_modalbox .Posts_main_title {
   width: 100%;
   float: left;
   margin-bottom: 28px;
 }
-.portfolio_tm_modalbox .portfolio_main_title h3 {
+.Posts_tm_modalbox .Posts_main_title h3 {
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 5px;
 }
-.portfolio_tm_modalbox .portfolio_main_title span {
+.Posts_tm_modalbox .Posts_main_title span {
   font-style: italic;
 }
-.portfolio_tm_modalbox .main_details {
+.Posts_tm_modalbox .main_details {
   width: 100%;
   height: auto;
   clear: both;
@@ -1969,7 +1970,7 @@ body.modal {
     flex-wrap: wrap;
   }
 }
-.portfolio_tm_modalbox .main_details .textbox {
+.Posts_tm_modalbox .main_details .textbox {
   width: 70%;
   padding-right: 40px;
   @media screen and (max-width: 767px) {
@@ -1977,14 +1978,14 @@ body.modal {
     padding-right: 0;
   }
 }
-.portfolio_tm_modalbox .main_details .textbox p {
+.Posts_tm_modalbox .main_details .textbox p {
   margin-bottom: 18px;
   font-style: italic;
 }
-.portfolio_tm_modalbox .main_details .textbox p:last-child {
+.Posts_tm_modalbox .main_details .textbox p:last-child {
   margin-bottom: 0px;
 }
-.portfolio_tm_modalbox .main_details .detailbox {
+.Posts_tm_modalbox .main_details .detailbox {
   width: 30%;
   padding-left: 40px;
   @media screen and (max-width: 767px) {
@@ -1992,26 +1993,26 @@ body.modal {
     padding-left: 0;
   }
 }
-.portfolio_tm_modalbox .main_details .detailbox > ul {
+.Posts_tm_modalbox .main_details .detailbox > ul {
   margin: 0px;
   list-style-type: none;
 }
-.portfolio_tm_modalbox .main_details .detailbox > ul > li {
+.Posts_tm_modalbox .main_details .detailbox > ul > li {
   margin: 0px 0px 8px 0px;
   width: 100%;
   float: left;
 }
-.portfolio_tm_modalbox .main_details .detailbox > ul > li:last-child {
+.Posts_tm_modalbox .main_details .detailbox > ul > li:last-child {
   margin-bottom: 0px;
 }
-.portfolio_tm_modalbox .main_details .detailbox .first {
+.Posts_tm_modalbox .main_details .detailbox .first {
   font-weight: 700;
   display: block;
   color: #000;
   margin-bottom: 3px;
   font-style: italic;
 }
-.portfolio_tm_modalbox .main_details .detailbox span a {
+.Posts_tm_modalbox .main_details .detailbox span a {
   text-decoration: none;
   color: #767676;
 
@@ -2021,12 +2022,12 @@ body.modal {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.portfolio_tm_modalbox .main_details .detailbox span a:hover {
+.Posts_tm_modalbox .main_details .detailbox span a:hover {
   color: #000;
   letter-spacing: 2px;
 }
 
-.portfolio_tm_modalbox {
+.Posts_tm_modalbox {
   .additional_images {
     width: 100%;
     height: auto;
@@ -2093,8 +2094,8 @@ body.modal {
   cursor: pointer !important;
 }
 
-// portfolio animation
-.tokyo_tm_portfolio {
+// Posts animation
+.tokyo_tm_Posts {
   .mobile_title {
     width: 100%;
     height: auto;
@@ -2128,7 +2129,7 @@ body.modal {
   }
 }
 
-.tokyo_tm_portfolio .portfolio_filter ul li .inner:hover .mobile_title {
+.tokyo_tm_Posts .Posts_filter ul li .inner:hover .mobile_title {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }

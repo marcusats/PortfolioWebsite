@@ -180,13 +180,13 @@ body.dark .tokyo_tm_title span {
   background-color: rgba(255, 255, 255, 0.08);
   color: #999;
 }
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li {
+body.dark .tokyo_tm_Posts .Posts_filter ul li {
   color: #bbb !important;
   &.react-tabs__tab--selected {
     color: #fff !important;
   }
 }
-body.dark .tokyo_tm_portfolio .portfolio_filter ul li:hover {
+body.dark .tokyo_tm_Posts .Posts_filter ul li:hover {
   color: #fff;
 }
 body.dark .tokyo_tm_news ul li .details .title a {
@@ -274,7 +274,7 @@ body.dark {
   .description_wrap .image {
     z-index: initial;
   }
-  .portfolio_tm_modalbox {
+  .Posts_tm_modalbox {
     .main_details .detailbox .first {
       color: #fff;
     }

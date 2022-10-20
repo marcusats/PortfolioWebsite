@@ -1,9 +1,6 @@
 import React from "react";
-import Preview from "../views/Preview";
-import HomeLight from "../views/all-home-version/HomeLight";
-import HomeDark from "../views/all-home-version/HomeDark";
-import RtlHomeLight from "../views/all-home-version/RtlHomeLight";
-import RtlHomeDark from "../views/all-home-version/RtlHomeDark";
+
+import MainHome from "../views/all-home-version/MainHome";
 import NotFound from "../views/NotFound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -13,11 +10,7 @@ const Routes = () => {
     <>
       <Router>
         <Switch>
-      
-          <Route path="/home-light" component={HomeLight} />
-          <Route path="/" component={HomeDark} />
-          <Route path="/rtl-home-light" component={RtlHomeLight} />
-          <Route path="/rtl-home-dark" component={RtlHomeDark} />
+          <Route path="/" component={MainHome} />
           <Route component={NotFound} />
         </Switch>
 

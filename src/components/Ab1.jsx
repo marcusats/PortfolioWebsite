@@ -19,15 +19,17 @@ const Ab1 = () => {
         <div className="description_inner">
           <div className="left">
             <p>
-            My name is Marco Salazar and I am a current Computer Engineering student, in junior standing, at Stevens Institute of Technology in Hoboken, NJ.
+            My name is Marcos Salazar and I am a current Computer Engineering student, at Stevens Institute of Technology in Hoboken, NJ.
             </p>
             <p>
-            When I was a kid growing up in Mexico, I used to play taking to pieces any objects or electronics I found and trying to figure out how they worked on the inside. Fast-forward to today, I focus on deconstructing centralized technologies and using distributed technologies to make a more equitable and accessible economical ecosystem.
+            Over the last three years I have found a passion for Web3 development and distributed ledger technologies. When I was a kid growing up in Mexico, I used to play taking to pieces any objects or electronics I found and trying to figure out how they worked on the inside. Fast-forward to today, I focus on deconstructing centralized technologies and using distributed technologies to make a more equitable and accessible economical ecosystem.
             </p>
-            
+            <p>
+            Dedicated to making a positive impact in societies, my ultimate goal as an engineer is to make technology a more equitable, inclusive and person-centered tool— one that makes our lives better without leaving anyone behind. 
+            </p>
             <div className="tokyo_tm_button">
               <button onClick={toggleModal} className="ib-button">
-                Read More
+                Learn More
               </button>
             </div>
             {/* END TOKYO BUTTON */}
@@ -35,16 +37,6 @@ const Ab1 = () => {
           {/* END LEFT */}
           <div className="right">
             <ul>
-              <li>
-                <p>
-                  <span>Birthday:</span>07.11.2001
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span>Age:</span>20
-                </p>
-              </li>
               <li>
                 <p>
                   <span>Email:</span>
@@ -95,7 +87,7 @@ const Ab1 = () => {
               <div className="my_box">
                 <div className="left">
                   <div className="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Programing Skills</h3>
                   </div>
                   {/* END ABOUT TITLE */}
 
@@ -103,13 +95,12 @@ const Ab1 = () => {
                     <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">Golang</span>
-                        <span className="number">5%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 95 + "%" }}
+                            style={{ width: 85 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -117,14 +108,13 @@ const Ab1 = () => {
 
                     <div className="progress_inner" data-value="80">
                       <span>
-                        <span className="label">Lifestyle Photography</span>
-                        <span className="number">80%</span>
+                        <span className="label">React</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 80 + "%" }}
+                            style={{ width: 85 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -132,18 +122,31 @@ const Ab1 = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Family Photography</span>
-                        <span className="number">90%</span>
+                        <span className="label">Solidity</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
+                            style={{ width: 85 + "%" }}
                           ></div>
                         </div>
                       </div>
                     </div>
+                    <div className="progress_inner" data-value="90">
+                      <span>
+                        <span className="label">C++</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 85 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    
                   </div>
                   {/* END PROGRESS */}
                 </div>
@@ -158,13 +161,12 @@ const Ab1 = () => {
                     <div className="progress_inner" data-value="95">
                       <span>
                         <span className="label">English</span>
-                        <span className="number">95%</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 95 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -172,29 +174,13 @@ const Ab1 = () => {
 
                     <div className="progress_inner" data-value="90">
                       <span>
-                        <span className="label">Japanese</span>
-                        <span className="number">90%</span>
+                        <span className="label">Spanish</span>
                       </span>
                       <div className="background">
                         <div className="bar">
                           <div
                             className="bar_in"
-                            style={{ width: 90 + "%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="progress_inner" data-value="85">
-                      <span>
-                        <span className="label">Arabian</span>
-                        <span className="number">85%</span>
-                      </span>
-                      <div className="background">
-                        <div className="bar">
-                          <div
-                            className="bar_in"
-                            style={{ width: 85 + "%" }}
+                            style={{ width: 100 + "%" }}
                           ></div>
                         </div>
                       </div>
@@ -213,14 +199,14 @@ const Ab1 = () => {
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                      <h3>EthGlobalNYC</h3>
+                      <span>Best Use Case for Valist </span>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+                      <h3>15</h3>
+                      <span>Different Schools</span>
                     </div>
                   </li>
                   <li>
@@ -234,13 +220,13 @@ const Ab1 = () => {
               </div>
               {/* END COUNTER */}
 
-              <div className="partners">
+              {/*<div className="partners">
                 <div className="about_title">
                   <h3>Our Partners</h3>
                 </div>
                 <Brand />
               </div>
-              {/* END PARTNER SLIDER */}
+               */}
             </div>
           </div>
         </div>
