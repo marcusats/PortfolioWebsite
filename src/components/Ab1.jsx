@@ -22,7 +22,7 @@ const Ab1 = () => {
             My name is Marcos Salazar and I am a current Computer Engineering student, at Stevens Institute of Technology in Hoboken, NJ.
             </p>
             <p>
-            Over the last three years I have found a passion for Web3 development and distributed ledger technologies. When I was a kid growing up in Mexico, I used to play taking to pieces any objects or electronics I found and trying to figure out how they worked on the inside. Fast-forward to today, I focus on deconstructing centralized technologies and using distributed technologies to make a more equitable and accessible economical ecosystem.
+            Over the last three years I have found a passion for Web3 development and distributed ledger technologies. When I was a kid growing up in Mexico, I used to love taking to pieces any objects or electronics I found and trying to figure out how they worked on the inside. Fast-forward to today, I focus on deconstructing centralized technologies and using distributed technologies to make a more equitable and accessible economical ecosystem.
             </p>
             <p>
             Dedicated to making a positive impact in societies, my ultimate goal as an engineer is to make technology a more equitable, inclusive and person-centered tool— one that makes our lives better without leaving anyone behind. 
